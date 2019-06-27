@@ -67,7 +67,7 @@ async def analyze(request):
     img_bytes = await (img_data['file'].read())
     img = open_image(BytesIO(img_bytes))
     prediction, c2, c3 = learn.predict(img)
-    return JSONResponse({'result': 'fixed'})
+    return JSONResponse({'result': str(prediction})
 
 
 if __name__ == '__main__':
