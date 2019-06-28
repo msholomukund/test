@@ -14,8 +14,8 @@ from starlette.staticfiles import StaticFiles
 # export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
 # export_file_url = 'https://www.dropbox.com/s/kgmz9qzk059dwg7/stage%3D10.pth?dl=1'
 #export_file_url = 'https://www.dropbox.com/s/1ed1y04vroqnr61/final.pkl?dl=1'
-export_file_url = 'https://drive.google.com/uc?export=download&id=1IE6PxqZkLxsx4QLzvyNCUcPBxCB8nH2H'
-export_file_name = 'final.pkl'
+export_file_url = 'https://drive.google.com/uc?export=download&id=149cJCJdinPz2sF5ZRzV9W_EIhNbr_zOM'
+export_file_name = 'exportE.pkl'
 #export_file_name = 'export.pkl'
 
 classes = ['happy', 'sad']
